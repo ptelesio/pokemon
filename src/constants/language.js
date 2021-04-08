@@ -1,0 +1,40 @@
+export default {
+    'spanish':{
+        home:"Inicio",
+        language:"Idioma",
+        spanish:"Español",
+        english:"Ingles",
+        typeaKeyword:"Escriba una palabra clave",
+        show:"Mostrar",
+        back:"Atras",
+        next:"Siguiente",
+        previous:"Previo",
+        showing:"Mostrando",
+        result:"resultado",
+        hp:"Hp",
+        attack:"Ataque",
+        defense:"Defensa",
+        "special-attack":"Ataque especial",
+        "special-defense":"Defensa especial",
+        speed:"Velocidad"
+    },
+    'english':{
+        home:"Home",
+        language:"Language",
+        spanish:"Spanish",
+        english:"English",
+        typeaKeyword:"Type a keyword",
+        show:"Show",
+        back:"Back",
+        next:"Next",
+        previous:"Previous",
+        showing:"showing",
+        result:"result",
+        hp:"Hp",
+        attack:"Attack",
+        defense:"Defense",
+        "special-attack":"Special Attack",
+        "special-defense":"Special Defense",
+        speed:"Speed"
+    }
+}

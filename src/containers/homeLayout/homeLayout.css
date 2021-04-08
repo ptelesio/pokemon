@@ -1,0 +1,88 @@
+.gridjs-td {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+}
+.gridjs-td .btn{
+    float:right;
+}
+.gridjs-tr{
+    border-style:solid;
+    border-width:0em;
+    border-bottom-width:0.1em;
+    border-color:#DCDCDC;
+}
+.gridjs-tr:hover{
+    opacity:0.5;
+}
+.gridjs-search input{
+    border-style:solid;
+    border-width:0em;
+    border-radius:0.2em;
+    background:#E9E9E9;
+    padding:0.6em;
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+}
+.gridjs-notfound{
+    color:red;
+}
+.gridjs-head{
+    margin-bottom:2em;
+}
+.gridjs-pagination{
+    margin-top:2em;
+}
+.gridjs-pagination .gridjs-summary{
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    color:#007bff;
+}
+.gridjs-pagination .gridjs-pages{
+    margin-top:2em;
+}
+.gridjs-pages button{
+    background:#007bff;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    padding:0.3em;
+    border-width:0em;
+    border-style:solid;
+    margin-left:0.4em;
+    border-radius:0.2em;
+}
+.gridjs-pages button:disabled{
+    opacity:0.5;
+    cursor:initial;
+}
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.list-group-item{
+text-align: center;
+}
+.ani-delay{
+    animation: fadeIn 0.3s ease-in both;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.link-btn{
+    color:#007bff;
+    cursor:pointer;
+    display:block;
+    width:8em;
+}
+.link-btn:hover{
+    text-decoration:underline;
+}
